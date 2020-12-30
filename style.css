@@ -5,6 +5,10 @@
   font-family: Helvetica, sans-serif;
 }
 
+body {
+  transition: all 0.3s ease;
+}
+
 h1,
 h2,
 p {
@@ -65,5 +69,39 @@ p {
 .modalContainer .close:focus {
   color: #00343d;
   text-decoration: none;
+  cursor: pointer;
+}
+
+/* cuadros */
+
+.one {
+  background: rgb(242, 255, 50);
+}
+.two {
+  background: rgb(50, 183, 255);
+}
+.three {
+  background: rgb(157, 255, 50);
+}
+.four {
+  background: rgb(255, 87, 50);
+}
+.five {
+  background: rgb(50, 255, 233);
+}
+
+.box-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.box-color {
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
   cursor: pointer;
 }
